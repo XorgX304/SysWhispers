@@ -166,6 +166,8 @@ This script was developed by [@Jackson_T](https://twitter.com/Jackson_T) but bui
 
 Special thanks to [@Dcept905](https://twitter.com/Dcept905) for testing and suggestions.
 
+code for getting new syscalls taken from a forum post from timb3r on  https://guidedhacking.com/threads/understanding-windows-syscalls-syscall-dumper.14470/
+
 ## Related Articles and Projects
 
 - [@0x00dtm](https://twitter.com/0x00dtm): [Userland API Monitoring and Code Injection Detection](https://0x00sec.org/t/userland-api-monitoring-and-code-injection-detection/5565)
