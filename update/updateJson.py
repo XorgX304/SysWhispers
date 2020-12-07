@@ -29,7 +29,7 @@ if not os.path.exists(sys.argv[2]):
 with open(sys.argv[2]) as fp:
     newsyscalls = {}
     for line in fp.readlines():
-        parts = re.split('[ ]+', line)
+        parts = re.split('[\t ]+', line)
         if(len(parts) != 3 or parts[0] == "SYSCALL"):
             continue
         newsyscalls[parts[2].strip('\n')] = int(parts[0], base=16)

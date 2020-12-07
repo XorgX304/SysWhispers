@@ -41,7 +41,7 @@ int main(void)
                 break;
          
             if (x == sizeof(pSig) - 1) {
-                printf("0x%02X\t   %p\t%s\n", pBuf[4], pAddr, szName);
+                printf("0x%02X%02X\t   %p\t%s\n", pBuf[5] pBuf[4], pAddr, szName);
             }
         }
     }
